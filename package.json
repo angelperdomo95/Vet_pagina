@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://angelperdomo95.github.io/Vet_pagina/",
+  "homepage": "http://angelperdomo95.github.io/Vet_pagina",
   "scripts": {
     "predeploy": "npm run build",
     "deploy" : "gh-pages -d build",
