@@ -1,6 +1,7 @@
 import React from "react";
 // Icons
-import { RiMailFill, RiSmartphoneFill, RiMacFill } from "react-icons/ri";
+import { RiMailFill,  RiServiceFill } from "react-icons/ri";
+
 
 const Services = () => {
   return (
@@ -25,7 +26,7 @@ const Services = () => {
               type="submit"
               className="absolute font-semibold py-2 px-6 bg-primary text-white rounded-xl top-1/2 -translate-y-1/2 right-2"
             >
-              Escribenos
+              Suscribete
             </button>
           </div>
         </form>
@@ -33,28 +34,28 @@ const Services = () => {
       {/* Services */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiServiceFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Asesoramiento En Caninos</h3>
           <p className="text-gray-500">
             Conoce mas acerca de tu canino con dietas ideales segun su estado y condicion de salud
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiServiceFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Asesoramiento En Felinos</h3>
           <p className="text-gray-500">
           Conoce mas acerca de tu felino con dietas ideales segun su estado y condicion de salud
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiSmartphoneFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiServiceFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Conocimiento De Fauna Silvestre</h3>
           <p className="text-gray-500">
           Conoce mas acerca de la fauna silvestre la importancia en nuestro ecosistema y di no al trafico de estos seres vivos 
           </p>
         </div>
         <div className="flex flex-col gap-2">
-          <RiMacFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+          <RiServiceFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
           <h3 className="text-[20px] font-bold">Conociemiento Salud Animal</h3>
           <p className="text-gray-500">
             Conoce mas acerca de la salud en general y date cuenta que una mascota posee cuidados especificos los cuales lo ayudaran a tener una vida sana

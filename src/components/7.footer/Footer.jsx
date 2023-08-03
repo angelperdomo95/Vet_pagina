@@ -18,7 +18,7 @@ const Footer = () => {
             href="#"
             className="text-2xl font-bold relative p-1 bg-footer text-white"
           >
-            Power<span className="text-primary text-5xl">.</span>{" "}
+            MimitosVet<span className="text-primary text-5xl">.</span>{" "}
           </a>
         </div>
         {/* Social media */}
@@ -86,13 +86,13 @@ const Footer = () => {
             type="button"
             className="font-semibold py-2 px-6 bg-primary text-white rounded-xl"
           >
-            Contact Us
+            WhatsApp
           </button>
         </nav>
       </div>
       <div className="mt-20">
         <p className="text-gray-300 text-center">
-          © jotredev 2022 - All Rights Reserved
+          © angelperdomo95 2023 - All Rights Reserved
         </p>
       </div>
     </footer>
