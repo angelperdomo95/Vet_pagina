@@ -56,7 +56,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col gap-2">
           <RiServiceFill className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-          <h3 className="text-[20px] font-bold">Conociemiento Salud Animal</h3>
+          <h3 className="text-[20px] font-bold">Conocimiento De Salud Animal</h3>
           <p className="text-gray-500">
             Conoce mas acerca de la salud en general y date cuenta que una mascota posee cuidados especificos los cuales lo ayudaran a tener una vida sana
           </p>
