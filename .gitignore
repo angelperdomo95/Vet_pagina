@@ -22,3 +22,65 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Archivos generados por sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Directorios y archivos de dependencias
+/node_modules/
+/bower_components/
+
+# Archivos de respaldo de editores de texto
+*~
+*.swp
+*.bak
+*.backup
+
+# Archivos y directorios de construcción
+/build/
+/dist/
+/out/
+/.next/
+/.nuxt/
+/.cache/
+
+# Archivos de configuración de entorno y desarrollo local
+.env
+.env.local
+.env.*.local
+
+# Archivos de registro y temporales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/debug.log
+
+# Directorio de imágenes generadas
+/uploads/
+
+# Archivos de medios y recursos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
+*.mp4
+*.mp3
+
+# Archivos de fuentes
+*.eot
+*.ttf
+*.woff
+*.woff2
+
+# Archivos de configuración de proyectos y herramientas
+package-lock.json
+yarn.lock
+bower.json
+
+# Otros archivos y directorios específicos para ciertas herramientas
+.idea/
+.vscode/
